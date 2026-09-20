@@ -608,14 +608,5 @@ That is what the Hermes SOUL Pack is designed to provide.
 
 ## License
 
-Choose and add the license appropriate for your project.
-
-For example:
-
-```text
-MIT License
-```
-
-if you want the repository to use the MIT license.
-
+Hermes SOUL Pack is licensed under the [MIT License](./LICENSE).
 Do not add a license file unless you have explicitly selected the license for this project.
