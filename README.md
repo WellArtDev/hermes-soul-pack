@@ -3,7 +3,7 @@
 > A modular collection of production-oriented `SOUL.md` personas for Hermes, OpenClaw-style agents, and other AI agent workflows.
 
 [![AI Agent](https://img.shields.io/badge/AI%20Agent-SOUL.md-blue)](https://github.com/WellArtDev/hermes-soul-pack)
-[![Roles](https://img.shields.io/badge/Roles-18-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
+[![Roles](https://img.shields.io/badge/Roles-22-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
 [![Format](https://img.shields.io/badge/Format-Markdown-black)](https://github.com/WellArtDev/hermes-soul-pack)
 [![GitHub Stars](https://img.shields.io/github/stars/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/network/members)
@@ -25,6 +25,19 @@ For example:
 - Infrastructure work can use the **DevOps / SRE** persona.
 
 The result is a cleaner and more maintainable AI-agent workflow.
+
+## Not a Standard — a Reference
+
+This pack is **not a framework, library, or product**. It does not install anything, expose an API, or run code.
+
+What it contains is text files: one `SOUL.md` per role, each describing how an agent should work in that discipline. Nothing more.
+
+- **Copy them.** Use a file as the system prompt or context for your agent, in any tool you already use.
+- **Edit them.** A SOUL is written to be adapted. Delete what does not fit your stack, team, or product.
+- **Combine them.** Use several at once, or take only the quality gates and anti-patterns.
+- **Ignore them.** No file here is required by anything. Nothing breaks if you do not follow one.
+
+The SOUL files carry **no credentials, no configuration, no tool bindings, and no environment assumptions**. They describe behavior and methodology only. If your setup needs secrets, tokens, or platform-specific wiring, that belongs in your own project configuration — never inside a SOUL.
 
 ---
 
@@ -52,30 +65,32 @@ The goal is not to create a fictional personality. The goal is to create consist
 
 ## Included Roles
 
-| # | Role | Primary Use |
-|---|---|---|
-| 00 | [**Hermes Orchestrator**](./00-HERMES) | General orchestration and task routing |
-| 01 | [**AI Assistant**](./01-AI-ASSISTANT) | Personal assistance, planning, organization |
-| 02 | [**Vibe Coding**](./02-VIBE-CODING) | Rapid software development |
-| 03 | [**Full-Stack Engineer**](./03-FULLSTACK-ENGINEER) | End-to-end application development |
-| 04 | [**Database Architect**](./04-DATABASE-ARCHITECT) | Schema, migrations, data architecture |
-| 05 | [**Security Engineer**](./05-SECURITY-ENGINEER) | Defensive security and application audits |
-| 06 | [**UI/UX Designer**](./06-UI-UX-DESIGNER) | Product design and interface systems |
-| 07 | [**Social Media Strategist**](./07-SOCIAL-MEDIA) | Social strategy and content planning |
-| 08 | [**Content Writer**](./08-CONTENT-WRITER) | Copywriting and editorial content |
-| 09 | [**Digital Marketing**](./09-DIGITAL-MARKETING) | Marketing strategy and campaigns |
-| 10 | [**Brand Strategist**](./10-BRANDING) | Brand identity and creative direction |
-| 11 | [**SEO Specialist**](./11-SEO) | Technical SEO and search strategy |
-| 12 | [**Research Analyst**](./12-RESEARCHER) | Research, verification, and synthesis |
-| 13 | [**Product Manager**](./13-PRODUCT-MANAGER) | Product requirements and prioritization |
-| 14 | [**Project Manager**](./14-PROJECT-MANAGER) | Planning, execution, risks, milestones |
-| 15 | [**DevOps / SRE**](./15-DEVOPS-SRE) | Infrastructure and reliability |
-| 16 | [**QA Engineer**](./16-QA-ENGINEER) | Testing and quality assurance |
-| 17 | [**Video Content Creator**](./17-VIDEO-CONTENT) | Video concepts, scripts, and creative direction |
-| 18 | [**Technical Writer**](./18-TECHNICAL-WRITER) | API docs, runbooks, and architecture decision records |
-| 19 | [**Privacy & Compliance Officer**](./19-PRIVACY-COMPLIANCE) | UU PDP / GDPR, data mapping, consent, retention |
-| 20 | [**Cloud Cost Engineer (FinOps)**](./20-CLOUD-COST-FINOPS) | Cloud spend analysis, rightsizing, unit economics |
-| 21 | [**Penetration Tester**](./21-PENETRATION-TESTER) | Authorized offensive testing of running systems |
+Roles are grouped by category. Each folder holds one `SOUL.md`.
+
+| Category | # | Role | Primary Use |
+|---|---|---|---|
+| Orchestration | 00 | [**Hermes Orchestrator**](./orchestration/hermes-orchestrator) | General orchestration and task routing |
+| Office | 01 | [**AI Assistant**](./office/ai-assistant) | Personal assistance, planning, organization |
+| | 14 | [**Project Manager**](./office/project-manager) | Planning, execution, risks, milestones |
+| Engineering | 02 | [**Vibe Coding**](./engineering/vibe-coding) | Rapid software development |
+| | 03 | [**Full-Stack Engineer**](./engineering/fullstack-engineer) | End-to-end application development |
+| | 04 | [**Database Architect**](./engineering/database-architect) | Schema, migrations, data architecture |
+| | 15 | [**DevOps / SRE**](./engineering/devops-sre) | Infrastructure and reliability |
+| | 16 | [**QA Engineer**](./engineering/qa-engineer) | Testing and quality assurance |
+| | 20 | [**Cloud Cost Engineer (FinOps)**](./engineering/cloud-cost-finops) | Cloud spend analysis, rightsizing, unit economics |
+| Security | 05 | [**Security Engineer**](./security/security-engineer) | Defensive security and application audits |
+| | 21 | [**Penetration Tester**](./security/penetration-tester) | Authorized offensive testing of running systems |
+| Compliance | 19 | [**Privacy & Compliance Officer**](./compliance/privacy-compliance) | UU PDP / GDPR, data mapping, consent, retention |
+| Product | 13 | [**Product Manager**](./product/product-manager) | Product requirements and prioritization |
+| Design | 06 | [**UI/UX Designer**](./design/ui-ux-designer) | Product design and interface systems |
+| Marketing | 07 | [**Social Media Strategist**](./marketing/social-media-strategist) | Social strategy and content planning |
+| | 09 | [**Digital Marketing**](./marketing/digital-marketing) | Marketing strategy and campaigns |
+| | 10 | [**Brand Strategist**](./marketing/brand-strategist) | Brand identity and creative direction |
+| | 11 | [**SEO Specialist**](./marketing/seo-specialist) | Technical SEO and search strategy |
+| Content | 08 | [**Content Writer**](./content/content-writer) | Copywriting and editorial content |
+| | 17 | [**Video Content Creator**](./content/video-content-creator) | Video concepts, scripts, and creative direction |
+| | 18 | [**Technical Writer**](./content/technical-writer) | API docs, runbooks, and architecture decision records |
+| Research | 12 | [**Research Analyst**](./research/research-analyst) | Research, verification, and synthesis |
 
 ---
 
@@ -85,68 +100,49 @@ The goal is not to create a fictional personality. The goal is to create consist
 hermes-soul-pack/
 │
 ├── README.md
+├── LICENSE
 │
-├── 00-HERMES/
-│   └── SOUL.md
+├── orchestration/
+│   └── hermes-orchestrator/SOUL.md
 │
-├── 01-AI-ASSISTANT/
-│   └── SOUL.md
+├── office/
+│   ├── ai-assistant/SOUL.md
+│   └── project-manager/SOUL.md
 │
-├── 02-VIBE-CODING/
-│   └── SOUL.md
+├── engineering/
+│   ├── vibe-coding/SOUL.md
+│   ├── fullstack-engineer/SOUL.md
+│   ├── database-architect/SOUL.md
+│   ├── devops-sre/SOUL.md
+│   ├── qa-engineer/SOUL.md
+│   └── cloud-cost-finops/SOUL.md
 │
-├── 03-FULLSTACK-ENGINEER/
-│   └── SOUL.md
+├── security/
+│   ├── security-engineer/SOUL.md
+│   └── penetration-tester/SOUL.md
 │
-├── 04-DATABASE-ARCHITECT/
-│   └── SOUL.md
+├── compliance/
+│   └── privacy-compliance/SOUL.md
 │
-├── 05-SECURITY-ENGINEER/
-│   └── SOUL.md
+├── product/
+│   └── product-manager/SOUL.md
 │
-├── 06-UI-UX-DESIGNER/
-│   └── SOUL.md
+├── design/
+│   └── ui-ux-designer/SOUL.md
 │
-├── 07-SOCIAL-MEDIA/
-│   └── SOUL.md
+├── marketing/
+│   ├── social-media-strategist/SOUL.md
+│   ├── digital-marketing/SOUL.md
+│   ├── brand-strategist/SOUL.md
+│   └── seo-specialist/SOUL.md
 │
-├── 08-CONTENT-WRITER/
-│   └── SOUL.md
+├── content/
+│   ├── content-writer/SOUL.md
+│   ├── video-content-creator/SOUL.md
+│   └── technical-writer/SOUL.md
 │
-├── 09-DIGITAL-MARKETING/
-│   └── SOUL.md
-│
-├── 10-BRANDING/
-│   └── SOUL.md
-│
-├── 11-SEO/
-│   └── SOUL.md
-│
-├── 12-RESEARCHER/
-│   └── SOUL.md
-│
-├── 13-PRODUCT-MANAGER/
-│   └── SOUL.md
-│
-├── 14-PROJECT-MANAGER/
-│   └── SOUL.md
-│
-├── 15-DEVOPS-SRE/
-│   └── SOUL.md
-│
-├── 16-QA-ENGINEER/
-│   └── SOUL.md
-│
-├── 17-VIDEO-CONTENT/
-│   └── SOUL.md
-├── 18-TECHNICAL-WRITER/
-│   └── SOUL.md
-├── 19-PRIVACY-COMPLIANCE/
-│   └── SOUL.md
-├── 20-CLOUD-COST-FINOPS/
-│   └── SOUL.md
-└── 21-PENETRATION-TESTER/
-    └── SOUL.md
+└── research/
+    └── research-analyst/SOUL.md
 ```
 
 ---
@@ -198,7 +194,7 @@ Tool configuration, API credentials, environment variables, model settings, and 
 Start with:
 
 ```text
-00-HERMES/SOUL.md
+orchestration/hermes-orchestrator/SOUL.md
 ```
 
 Hermes acts as the general coordinator.
@@ -243,7 +239,7 @@ SOUL.md
 can contain the contents of:
 
 ```text
-02-VIBE-CODING/SOUL.md
+engineering/vibe-coding/SOUL.md
 ```
 
 for a coding-focused agent.
@@ -468,8 +464,7 @@ You can customize:
 For example, a company can create:
 
 ```text
-18-COMPANY-SPECIFIC/
-└── SOUL.md
+your-company/SOUL.md
 ```
 
 and define its own operating rules.
@@ -490,11 +485,10 @@ agent/
 ├── MEMORY.md
 │
 ├── souls/
-│   ├── 00-HERMES/
-│   ├── 01-AI-ASSISTANT/
-│   ├── 02-VIBE-CODING/
-│   ├── ...
-│   └── 17-VIDEO-CONTENT/
+│   ├── orchestration/
+│   ├── engineering/
+│   ├── security/
+│   └── .../
 │
 └── projects/
     ├── project-a/
