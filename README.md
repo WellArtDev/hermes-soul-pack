@@ -54,27 +54,27 @@ The goal is not to create a fictional personality. The goal is to create consist
 
 | # | Role | Primary Use |
 |---|---|---|
-| 00 | **Hermes Orchestrator** | General orchestration and task routing |
-| 01 | **AI Assistant** | Personal assistance, planning, organization |
-| 02 | **Vibe Coding** | Rapid software development |
-| 03 | **Full-Stack Engineer** | End-to-end application development |
-| 04 | **Database Architect** | Schema, migrations, data architecture |
-| 05 | **Security Engineer** | Defensive security and application audits |
-| 06 | **UI/UX Designer** | Product design and interface systems |
-| 07 | **Social Media Strategist** | Social strategy and content planning |
-| 08 | **Content Writer** | Copywriting and editorial content |
-| 09 | **Digital Marketing** | Marketing strategy and campaigns |
-| 10 | **Brand Strategist** | Brand identity and creative direction |
-| 11 | **SEO Specialist** | Technical SEO and search strategy |
-| 12 | **Research Analyst** | Research, verification, and synthesis |
-| 13 | **Product Manager** | Product requirements and prioritization |
-| 14 | **Project Manager** | Planning, execution, risks, milestones |
-| 15 | **DevOps / SRE** | Infrastructure and reliability |
-| 16 | **QA Engineer** | Testing and quality assurance |
-| 17 | **Video Content Creator** | Video concepts, scripts, and creative direction |
-| 18 | **Technical Writer** | API docs, runbooks, and architecture decision records |
-| 19 | **Privacy & Compliance Officer** | UU PDP / GDPR, data mapping, consent, retention |
-| 20 | **Cloud Cost Engineer (FinOps)** | Cloud spend analysis, rightsizing, unit economics |
+| 00 | [**Hermes Orchestrator**](./00-HERMES) | General orchestration and task routing |
+| 01 | [**AI Assistant**](./01-AI-ASSISTANT) | Personal assistance, planning, organization |
+| 02 | [**Vibe Coding**](./02-VIBE-CODING) | Rapid software development |
+| 03 | [**Full-Stack Engineer**](./03-FULLSTACK-ENGINEER) | End-to-end application development |
+| 04 | [**Database Architect**](./04-DATABASE-ARCHITECT) | Schema, migrations, data architecture |
+| 05 | [**Security Engineer**](./05-SECURITY-ENGINEER) | Defensive security and application audits |
+| 06 | [**UI/UX Designer**](./06-UI-UX-DESIGNER) | Product design and interface systems |
+| 07 | [**Social Media Strategist**](./07-SOCIAL-MEDIA) | Social strategy and content planning |
+| 08 | [**Content Writer**](./08-CONTENT-WRITER) | Copywriting and editorial content |
+| 09 | [**Digital Marketing**](./09-DIGITAL-MARKETING) | Marketing strategy and campaigns |
+| 10 | [**Brand Strategist**](./10-BRANDING) | Brand identity and creative direction |
+| 11 | [**SEO Specialist**](./11-SEO) | Technical SEO and search strategy |
+| 12 | [**Research Analyst**](./12-RESEARCHER) | Research, verification, and synthesis |
+| 13 | [**Product Manager**](./13-PRODUCT-MANAGER) | Product requirements and prioritization |
+| 14 | [**Project Manager**](./14-PROJECT-MANAGER) | Planning, execution, risks, milestones |
+| 15 | [**DevOps / SRE**](./15-DEVOPS-SRE) | Infrastructure and reliability |
+| 16 | [**QA Engineer**](./16-QA-ENGINEER) | Testing and quality assurance |
+| 17 | [**Video Content Creator**](./17-VIDEO-CONTENT) | Video concepts, scripts, and creative direction |
+| 18 | [**Technical Writer**](./18-TECHNICAL-WRITER) | API docs, runbooks, and architecture decision records |
+| 19 | [**Privacy & Compliance Officer**](./19-PRIVACY-COMPLIANCE) | UU PDP / GDPR, data mapping, consent, retention |
+| 20 | [**Cloud Cost Engineer (FinOps)**](./20-CLOUD-COST-FINOPS) | Cloud spend analysis, rightsizing, unit economics |
 
 ---
 
