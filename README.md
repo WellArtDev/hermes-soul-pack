@@ -75,6 +75,7 @@ The goal is not to create a fictional personality. The goal is to create consist
 | 18 | [**Technical Writer**](./18-TECHNICAL-WRITER) | API docs, runbooks, and architecture decision records |
 | 19 | [**Privacy & Compliance Officer**](./19-PRIVACY-COMPLIANCE) | UU PDP / GDPR, data mapping, consent, retention |
 | 20 | [**Cloud Cost Engineer (FinOps)**](./20-CLOUD-COST-FINOPS) | Cloud spend analysis, rightsizing, unit economics |
+| 21 | [**Penetration Tester**](./21-PENETRATION-TESTER) | Authorized offensive testing of running systems |
 
 ---
 
@@ -142,7 +143,9 @@ hermes-soul-pack/
 │   └── SOUL.md
 ├── 19-PRIVACY-COMPLIANCE/
 │   └── SOUL.md
-└── 20-CLOUD-COST-FINOPS/
+├── 20-CLOUD-COST-FINOPS/
+│   └── SOUL.md
+└── 21-PENETRATION-TESTER/
     └── SOUL.md
 ```
 
@@ -603,6 +606,7 @@ Implemented from earlier roadmap:
 - ~~Technical Writer~~ → added in 18
 - ~~Privacy & Compliance Officer~~ → added in 19 (not on the original list — added for UU PDP / GDPR relevance)
 - ~~Cloud Cost Engineer (FinOps)~~ → added in 20 (not on the original list — added for production-stage products)
+- ~~Penetration Tester~~ → added in 21 (not on the original list — the Security Engineer role is defensive; offensive testing of running systems is a separate discipline)
 
 ---
 
