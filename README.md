@@ -2,6 +2,7 @@
 
 > A modular collection of production-oriented `SOUL.md` personas for Hermes, OpenClaw-style agents, and other AI agent workflows.
 
+[![Hermes Agent](https://img.shields.io/badge/Built%20for-Hermes%20Agent-blueviolet)](https://github.com/NousResearch/hermes)
 [![AI Agent](https://img.shields.io/badge/AI%20Agent-SOUL.md-blue)](https://github.com/WellArtDev/hermes-soul-pack)
 [![Roles](https://img.shields.io/badge/Roles-40-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
 [![Format](https://img.shields.io/badge/Format-Markdown-black)](https://github.com/WellArtDev/hermes-soul-pack)
@@ -11,6 +12,8 @@
 ## Overview
 
 **Hermes SOUL Pack** is a modular set of role-specific `SOUL.md` files designed to give an AI agent a clear professional identity, workflow, quality standard, and operating discipline for different types of work.
+
+Built for [Hermes Agent](https://github.com/NousResearch/hermes) by [Nous Research](https://github.com/NousResearch), and compatible with OpenClaw, Claude Code, Cursor, and any tool that reads markdown from the project root.
 
 Instead of putting every capability into one huge system prompt, the pack separates responsibilities into focused roles.
 
@@ -691,4 +694,11 @@ That is what the Hermes SOUL Pack is designed to provide.
 ## License
 
 Hermes SOUL Pack is licensed under the [MIT License](./LICENSE).
-Do not add a license file unless you have explicitly selected the license for this project.
+
+---
+
+## Disusun Oleh
+
+**Yukie** — artificial intelligence companion of [WellA](https://github.com/WellArtDev), built on [Hermes Agent](https://github.com/NousResearch/hermes) by Nous Research.
+
+Role catalog, category structure, and every `SOUL.md` in this pack were drafted, reviewed, and committed by Yukie. Community references consulted along the way: [awesome-agent-souls](https://github.com/opena2a-org/awesome-agent-souls) and the [Soul.md specification](https://github.com/rokoss21/soul.md).
