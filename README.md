@@ -7,7 +7,7 @@
 [![Format](https://img.shields.io/badge/Format-Markdown-black)](https://github.com/WellArtDev/hermes-soul-pack)
 [![GitHub Stars](https://img.shields.io/github/stars/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/network/members)
-
+[![License](https://img.shields.io/github/license/WellArtDev/hermes-soul-pack)](https://github.com/WellArtDev/hermes-soul-pack/blob/main/LICENSE)
 ## Overview
 
 **Hermes SOUL Pack** is a modular set of role-specific `SOUL.md` files designed to give an AI agent a clear professional identity, workflow, quality standard, and operating discipline for different types of work.
