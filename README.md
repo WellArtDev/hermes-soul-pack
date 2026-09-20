@@ -72,6 +72,9 @@ The goal is not to create a fictional personality. The goal is to create consist
 | 15 | **DevOps / SRE** | Infrastructure and reliability |
 | 16 | **QA Engineer** | Testing and quality assurance |
 | 17 | **Video Content Creator** | Video concepts, scripts, and creative direction |
+| 18 | **Technical Writer** | API docs, runbooks, and architecture decision records |
+| 19 | **Privacy & Compliance Officer** | UU PDP / GDPR, data mapping, consent, retention |
+| 20 | **Cloud Cost Engineer (FinOps)** | Cloud spend analysis, rightsizing, unit economics |
 
 ---
 
@@ -133,7 +136,13 @@ hermes-soul-pack/
 ├── 16-QA-ENGINEER/
 │   └── SOUL.md
 │
-└── 17-VIDEO-CONTENT/
+├── 17-VIDEO-CONTENT/
+│   └── SOUL.md
+├── 18-TECHNICAL-WRITER/
+│   └── SOUL.md
+├── 19-PRIVACY-COMPLIANCE/
+│   └── SOUL.md
+└── 20-CLOUD-COST-FINOPS/
     └── SOUL.md
 ```
 
@@ -304,11 +313,34 @@ For content projects:
 
 For research-heavy projects:
 
-```text
+```
 01. Research Analyst
 02. Product Manager
 03. Content Writer
 04. Digital Marketing
+```
+
+For a product touching personal data (most products):
+
+```
+01. Product Manager
+02. Privacy & Compliance Officer
+03. UI/UX Designer
+04. Database Architect
+05. Full-Stack Engineer
+06. Security Engineer
+07. Technical Writer
+08. QA Engineer
+```
+
+For a product already running in production:
+
+```
+01. DevOps / SRE
+02. Cloud Cost Engineer (FinOps)
+03. Database Architect
+04. Technical Writer
+05. QA Engineer
 ```
 
 These are suggested workflows, not mandatory dependencies.
@@ -543,26 +575,34 @@ rather than attempting to document the entire software platform.
 
 ---
 
-# Roadmap
+## Roadmap
 
 Potential future additions:
 
-- [ ] Legal / Compliance Researcher
-- [ ] Data Analyst
-- [ ] Data Engineer
-- [ ] Machine Learning Engineer
-- [ ] AI Engineer
-- [ ] Prompt Engineer
-- [ ] Customer Support Agent
-- [ ] Sales Development Representative
-- [ ] Finance Analyst
-- [ ] Operations Manager
-- [ ] UX Researcher
-- [ ] Creative Director
-- [ ] Game Developer
-- [ ] Mobile App Developer
-- [ ] Technical Writer
-- [ ] Solutions Architect
+- Data Analyst
+- Data Engineer
+- Machine Learning Engineer
+- AI Engineer
+- Prompt Engineer
+- Customer Support Agent
+- Sales Development Representative
+- Finance Analyst
+- Operations Manager
+- UX Researcher
+- Creative Director
+- Game Developer
+- Mobile App Developer
+- Solutions Architect
+- Incident Commander
+- Automation / Integration Engineer
+- Accessibility Specialist
+- Technical Mentor / Tutor
+
+Implemented from earlier roadmap:
+
+- ~~Technical Writer~~ → added in 18
+- ~~Privacy & Compliance Officer~~ → added in 19 (not on the original list — added for UU PDP / GDPR relevance)
+- ~~Cloud Cost Engineer (FinOps)~~ → added in 20 (not on the original list — added for production-stage products)
 
 ---
 
