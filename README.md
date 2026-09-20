@@ -3,7 +3,7 @@
 > A modular collection of production-oriented `SOUL.md` personas for Hermes, OpenClaw-style agents, and other AI agent workflows.
 
 [![AI Agent](https://img.shields.io/badge/AI%20Agent-SOUL.md-blue)](https://github.com/WellArtDev/hermes-soul-pack)
-[![Roles](https://img.shields.io/badge/Roles-22-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
+[![Roles](https://img.shields.io/badge/Roles-40-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
 [![Format](https://img.shields.io/badge/Format-Markdown-black)](https://github.com/WellArtDev/hermes-soul-pack)
 [![GitHub Stars](https://img.shields.io/github/stars/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/network/members)
@@ -78,11 +78,24 @@ Roles are grouped by category. Each folder holds one `SOUL.md`.
 | | 15 | [**DevOps / SRE**](./engineering/devops-sre) | Infrastructure and reliability |
 | | 16 | [**QA Engineer**](./engineering/qa-engineer) | Testing and quality assurance |
 | | 20 | [**Cloud Cost Engineer (FinOps)**](./engineering/cloud-cost-finops) | Cloud spend analysis, rightsizing, unit economics |
+| | 22 | [**Game Developer**](./engineering/game-developer) | Interactive systems, core loops, frame budgets |
+| | 23 | [**Mobile App Developer**](./engineering/mobile-app-developer) | Lifecycle, offline-first, low-end devices |
+| | 24 | [**Solutions Architect**](./engineering/solutions-architect) | Tradeoffs, failure design, ADRs |
+| | 25 | [**Automation / Integration Engineer**](./engineering/automation-integration-engineer) | Reliable, observable, recoverable integrations |
+| | 26 | [**Incident Commander**](./engineering/incident-commander) | Coordination and blameless postmortems |
 | Security | 05 | [**Security Engineer**](./security/security-engineer) | Defensive security and application audits |
 | | 21 | [**Penetration Tester**](./security/penetration-tester) | Authorized offensive testing of running systems |
 | Compliance | 19 | [**Privacy & Compliance Officer**](./compliance/privacy-compliance) | UU PDP / GDPR, data mapping, consent, retention |
 | Product | 13 | [**Product Manager**](./product/product-manager) | Product requirements and prioritization |
 | Design | 06 | [**UI/UX Designer**](./design/ui-ux-designer) | Product design and interface systems |
+| | 27 | [**UX Researcher**](./design/ux-researcher) | Behavioral research, evidence over opinion |
+| | 28 | [**Accessibility Specialist**](./design/accessibility-specialist) | WCAG, assistive technology, one product for all |
+| | 29 | [**Creative Director**](./design/creative-director) | Brand standard, briefs, feedback craft |
+| Data | 30 | [**Data Analyst**](./data/data-analyst) | Business questions answered with data |
+| | 31 | [**Data Engineer**](./data/data-engineer) | Reliable, observable, idempotent pipelines |
+| | 32 | [**Machine Learning Engineer**](./data/machine-learning-engineer) | Models as monitored production systems |
+| AI | 33 | [**AI Engineer**](./ai/ai-engineer) | LLM product features: retrieval, tools, guardrails |
+| | 34 | [**Prompt Engineer**](./ai/prompt-engineer) | Versioned, measured, eval-driven prompts |
 | Marketing | 07 | [**Social Media Strategist**](./marketing/social-media-strategist) | Social strategy and content planning |
 | | 09 | [**Digital Marketing**](./marketing/digital-marketing) | Marketing strategy and campaigns |
 | | 10 | [**Brand Strategist**](./marketing/brand-strategist) | Brand identity and creative direction |
@@ -91,6 +104,11 @@ Roles are grouped by category. Each folder holds one `SOUL.md`.
 | | 17 | [**Video Content Creator**](./content/video-content-creator) | Video concepts, scripts, and creative direction |
 | | 18 | [**Technical Writer**](./content/technical-writer) | API docs, runbooks, and architecture decision records |
 | Research | 12 | [**Research Analyst**](./research/research-analyst) | Research, verification, and synthesis |
+| Business | 35 | [**Customer Support Agent**](./business/customer-support-agent) | Resolution and honest escalation |
+| | 36 | [**Sales Development Representative**](./business/sales-development-representative) | Qualified conversations, not booked noise |
+| | 37 | [**Finance Analyst**](./business/finance-analyst) | Cash, burn, runway, unit economics |
+| | 38 | [**Operations Manager**](./business/operations-manager) | Processes that survive a person leaving |
+| Education | 39 | [**Technical Mentor**](./education/technical-mentor) | Builds learners who no longer need you |
 
 ---
 
@@ -115,7 +133,12 @@ hermes-soul-pack/
 │   ├── database-architect/SOUL.md
 │   ├── devops-sre/SOUL.md
 │   ├── qa-engineer/SOUL.md
-│   └── cloud-cost-finops/SOUL.md
+│   ├── cloud-cost-finops/SOUL.md
+│   ├── game-developer/SOUL.md
+│   ├── mobile-app-developer/SOUL.md
+│   ├── solutions-architect/SOUL.md
+│   ├── automation-integration-engineer/SOUL.md
+│   └── incident-commander/SOUL.md
 │
 ├── security/
 │   ├── security-engineer/SOUL.md
@@ -128,7 +151,19 @@ hermes-soul-pack/
 │   └── product-manager/SOUL.md
 │
 ├── design/
-│   └── ui-ux-designer/SOUL.md
+│   ├── ui-ux-designer/SOUL.md
+│   ├── ux-researcher/SOUL.md
+│   ├── accessibility-specialist/SOUL.md
+│   └── creative-director/SOUL.md
+│
+├── data/
+│   ├── data-analyst/SOUL.md
+│   ├── data-engineer/SOUL.md
+│   └── machine-learning-engineer/SOUL.md
+│
+├── ai/
+│   ├── ai-engineer/SOUL.md
+│   └── prompt-engineer/SOUL.md
 │
 ├── marketing/
 │   ├── social-media-strategist/SOUL.md
@@ -141,8 +176,17 @@ hermes-soul-pack/
 │   ├── video-content-creator/SOUL.md
 │   └── technical-writer/SOUL.md
 │
-└── research/
-    └── research-analyst/SOUL.md
+├── research/
+│   └── research-analyst/SOUL.md
+│
+├── business/
+│   ├── customer-support-agent/SOUL.md
+│   ├── sales-development-representative/SOUL.md
+│   ├── finance-analyst/SOUL.md
+│   └── operations-manager/SOUL.md
+│
+└── education/
+    └── technical-mentor/SOUL.md
 ```
 
 ---
@@ -574,33 +618,33 @@ rather than attempting to document the entire software platform.
 
 ## Roadmap
 
-Potential future additions:
+Roles previously listed as future additions, now implemented:
 
-- Data Analyst
-- Data Engineer
-- Machine Learning Engineer
-- AI Engineer
-- Prompt Engineer
-- Customer Support Agent
-- Sales Development Representative
-- Finance Analyst
-- Operations Manager
-- UX Researcher
-- Creative Director
-- Game Developer
-- Mobile App Developer
-- Solutions Architect
-- Incident Commander
-- Automation / Integration Engineer
-- Accessibility Specialist
-- Technical Mentor / Tutor
+- ~~Data Analyst~~ → 30
+- ~~Data Engineer~~ → 31
+- ~~Machine Learning Engineer~~ → 32
+- ~~AI Engineer~~ → 33
+- ~~Prompt Engineer~~ → 34
+- ~~Customer Support Agent~~ → 35
+- ~~Sales Development Representative~~ → 36
+- ~~Finance Analyst~~ → 37
+- ~~Operations Manager~~ → 38
+- ~~UX Researcher~~ → 27
+- ~~Creative Director~~ → 29
+- ~~Game Developer~~ → 22
+- ~~Mobile App Developer~~ → 23
+- ~~Solutions Architect~~ → 24
+- ~~Incident Commander~~ → 26
+- ~~Automation / Integration Engineer~~ → 25
+- ~~Accessibility Specialist~~ → 28
+- ~~Technical Mentor / Tutor~~ → 39
 
-Implemented from earlier roadmap:
+Earlier additions not on the original list:
 
-- ~~Technical Writer~~ → added in 18
-- ~~Privacy & Compliance Officer~~ → added in 19 (not on the original list — added for UU PDP / GDPR relevance)
-- ~~Cloud Cost Engineer (FinOps)~~ → added in 20 (not on the original list — added for production-stage products)
-- ~~Penetration Tester~~ → added in 21 (not on the original list — the Security Engineer role is defensive; offensive testing of running systems is a separate discipline)
+- ~~Technical Writer~~ → 18 (added for docs that stay true to the code)
+- ~~Privacy & Compliance Officer~~ → 19 (added for UU PDP / GDPR relevance)
+- ~~Cloud Cost Engineer (FinOps)~~ → 20 (added for production-stage products)
+- ~~Penetration Tester~~ → 21 (the Security Engineer role is defensive; offensive testing of running systems is a separate discipline)
 
 ---
 
