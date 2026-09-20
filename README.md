@@ -2,10 +2,11 @@
 
 > A modular collection of production-oriented `SOUL.md` personas for Hermes, OpenClaw-style agents, and other AI agent workflows.
 
-[![SOUL Pack](https://img.shields.io/badge/AI-Agent-SOUL.md-blue)](https://github.com/)
-[![Roles](https://img.shields.io/badge/Roles-18-purple)](./)
-[![Format](https://img.shields.io/badge/Format-Markdown-black)](./)
-[![License](https://img.shields.io/badge/License-Choose%20Your%20License-lightgrey)](./LICENSE)
+[![AI Agent](https://img.shields.io/badge/AI%20Agent-SOUL.md-blue)](https://github.com/WellArtDev/hermes-soul-pack)
+[![Roles](https://img.shields.io/badge/Roles-18-purple)](https://github.com/WellArtDev/hermes-soul-pack/tree/main)
+[![Format](https://img.shields.io/badge/Format-Markdown-black)](https://github.com/WellArtDev/hermes-soul-pack)
+[![GitHub Stars](https://img.shields.io/github/stars/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/WellArtDev/hermes-soul-pack?style=flat&logo=github)](https://github.com/WellArtDev/hermes-soul-pack/network/members)
 
 ## Overview
 
